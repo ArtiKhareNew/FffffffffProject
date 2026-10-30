@@ -7,11 +7,19 @@ packages:
   gitUrl: https://github.com/ArtiKhareNew
   gitUsername: ArtiKhareNew
   gitBranch: main
+- name: DivisionPackage
+  version: "5.0"
+  gitServerName: srcGithubCtrl_shared_Arti
+  gitUrl: https://github.com/ArtiKhareNew
+  gitUsername: ArtiKhareNew
+  gitBranch: main
 services:
 - serviceName: project.fffffffff.integrations:aa
   packages:
   - name: FffffffffProject
     version: "1.0"
+  - name: DivisionPackage
+    version: "5.0"
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
@@ -20,6 +28,8 @@ services:
   packages:
   - name: FffffffffProject
     version: "1.0"
+  - name: DivisionPackage
+    version: "5.0"
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
