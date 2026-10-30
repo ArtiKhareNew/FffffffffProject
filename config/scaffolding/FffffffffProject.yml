@@ -24,7 +24,7 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1070
-- serviceName: project.fffffffff.streaming.connections:EmbeddedMessaging
+- serviceName: project.fffffffff.integrations:dd
   packages:
   - name: FffffffffProject
     version: "1.0"
